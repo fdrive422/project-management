@@ -1,3 +1,3 @@
 {
-  "plugins": ["prettier-plug-in-tailwindcss"]
+  "plugins": ["prettier-plugin-tailwindcss"]
 }
