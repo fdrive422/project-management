@@ -1,10 +1,9 @@
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-24">
-      <div className="text-4xl font-bold text-blue-600 transition-colors hover:text-blue-800">
-        Hello World
+    <main className="flex min-h-screen flex-col items-center p-24">
+      <div className="text-2xl font-bold text-blue-600 transition-colors hover:text-blue-800">
+        Welcome to my Next.js app with Tailwind CSS
       </div>
-      Welcome to my Next.js app with Tailwind CSS
     </main>
   );
 }
