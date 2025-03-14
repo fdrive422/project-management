@@ -19,7 +19,7 @@ const Sidebar = () => {
         </div>
         {/* TEAMS */}
         <div className="flex items-center gap-5 border-gray-100 border-y-[1.5] px-8 py-4 dark:border-gray-700">
-          <Image src="/logo1.png" alt="Logo" width={80} height={80} />
+          <Image src="/logo.png" alt="Logo" width={80} height={80} />
         </div>
       </div>
     </div>
