@@ -13,8 +13,10 @@
     "@emotion/styled": "^11.14.0",
     "@mui/material": "^6.4.6",
     "@mui/x-data-grid": "^7.27.2",
+    "@reduxjs/toolkit": "^2.6.1",
     "axios": "^1.8.1",
     "date-fns": "^4.1.0",
+    "dotenv": "^16.4.7",
     "eslint-config-next": "13.4.3",
     "gantt-task-react": "^0.3.9",
     "lucide-react": "^0.477.0",
@@ -22,7 +24,9 @@
     "numeral": "^2.0.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "recharts": "^2.15.1"
+    "react-redux": "^9.2.0",
+    "recharts": "^2.15.1",
+    "redux-persist": "^6.0.0"
   },
   "devDependencies": {
     "@types/node": "^20.2.3",
