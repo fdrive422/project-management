@@ -1,4 +1,4 @@
-import { Icon, LockIcon, LucideIcon } from "lucide-react";
+import { Home, Icon, LockIcon, LucideIcon } from "lucide-react";
 import Image from "next/image";
 import React, { useState } from "react";
 import { usePathname } from "next/navigation";
@@ -35,6 +35,9 @@ const Sidebar = () => {
           </div>
         </div>
         {/* NAVBAR LINKS */}
+        <nav className="z-10 w-full">
+          <SidebarLink icon={Home} label="Home" href="/" />
+        </nav>
       </div>
     </div>
   );
@@ -44,7 +47,7 @@ interface SidebarLinkProps {
   href: string;
   icon: LucideIcon;
   label: string;
-  isCollapsed: boolean;
+  // isCollapsed: boolean;
 }
 
 const SidebarLink = ({
