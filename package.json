@@ -1,0 +1,14 @@
+{
+  "name": "project-management",
+  "version": "1.0.0",
+  "description": "Project Management Application",
+  "scripts": {
+    "client": "cd client && npm run dev",
+    "client:install": "cd client && npm install",
+    "dev": "npm run client"
+  },
+  "private": true,
+  "workspaces": [
+    "client"
+  ]
+}
