@@ -1,13 +1,18 @@
 import {
+  AlertCircle,
+  AlertOctagon,
+  AlertTriangle,
   Briefcase,
   ChevronDown,
   ChevronUp,
   Home,
   Icon,
+  Layers3,
   LockIcon,
   LucideIcon,
   Search,
   Settings,
+  ShieldAlert,
   User,
   Users,
   X,
@@ -103,6 +108,31 @@ const Sidebar = () => {
             <ChevronDown className="h-5 w-5" />
           )}
         </button>
+        {showPriority && (
+          <>
+            <SidebarLink
+              icon={AlertCircle}
+              label="Urgent"
+              href="/priority/ugent"
+            />
+            <SidebarLink
+              icon={ShieldAlert}
+              label="High"
+              href="/priority/high"
+            />
+            <SidebarLink
+              icon={AlertTriangle}
+              label="MediumTeams"
+              href="/priority/medium"
+            />
+            <SidebarLink icon={AlertOctagon} label="Low" href="/priority/low" />
+            <SidebarLink
+              icon={Layers3}
+              label="BacklogTeams"
+              href="/priority/backlog"
+            />
+          </>
+        )}
       </div>
     </div>
   );

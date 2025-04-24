@@ -14,8 +14,8 @@ body,
   height: 100%;
   width: 100%;
   @apply text-sm;
-  @apply bg-gray-500;
-  @apply text-gray-900;
+  @apply bg-white;
+  @apply dark:bg-black;
   /* --font-geist-sans: "Geist", sans-serif;
   --font-geist-mono: "Geist Mono", monospace; */
 }
